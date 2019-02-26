@@ -1,0 +1,7 @@
+.shadow-image {
+    background-image: url("../jumbotron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    box-shadow: inset 1000px 0 100px 10px #e9ecef;
+}
