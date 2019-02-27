@@ -1,7 +1,74 @@
 .shadow-image {
     background-image: url("../jumbotron.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
-    box-shadow: inset 1000px 0 100px 10px #e9ecef;
+    background-size: cover;
+    background-position: right top;
+    box-shadow: inset 600px 0 100px 10px #e9ecef;
 }
+
+@media (max-width: 575.98px) {
+    .shadow-image {
+        box-shadow: inset 0 0 0 0;
+    }
+    .welcome-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .shadow-image {
+        box-shadow: inset 0 0 0 0;
+    }
+    .welcome-text {
+        font-size: 2rem;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1079.98px) {
+    .shadow-image {
+        box-shadow: inset 0 0 0 0;
+    }
+    .welcome-text {
+        font-size: 2.5rem;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1349.9px) {
+    .shadow-image {
+        background-size: contain;
+    }
+    .welcome-text {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1350px) and (max-width: 1499.98px) {
+    .shadow-image {
+        background-size: contain;
+        box-shadow: inset 800px 0 100px 10px #e9ecef;
+    }
+    .welcome-text {
+        font-size: 3.5rem;
+    }
+} 
+
+@media (min-width: 1500px) {
+    .shadow-image {
+        background-size: contain;
+        box-shadow: inset 1000px 0 100px 10px #e9ecef;
+    }
+    .welcome-text {
+        font-size: 4.5rem;
+    }
+}
+
+hr.half {
+    width: 700px;
+    margin-left: 0;
+}
+
+/* .cover-text {
+    position: absolute;
+} */
