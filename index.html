@@ -7,6 +7,7 @@
 	<meta name="description" content="sky_lock's homepage">
 	<title>sky_lock.github.io</title>
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/sticky-footer.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -23,7 +24,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark shadow-sm bg-dark">
 			<a class="navbar-brand" href="#">
-				<img src="identicon.png" width="30" height="30" class="d-inline-block" alt="">
+				<img src="./img/identicon.png" width="30" height="30" class="d-inline-block" alt="">
 				<span class="navbar-brand mb-0 h1">SKY_LOCK</span>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
@@ -39,28 +40,43 @@
 						<a class="nav-link" href="#">自己紹介</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">アーティファクト</a>
+						<a class="nav-link" href="#">作ったもの</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">予定</a>
+					</li>
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="article-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									記事
+							</a>
+							<div class="dropdown-menu" aria-labelledby="article-dropdown">
+								<a class="dropdown-item" href="#">記事</a>
+								<a class="dropdown-item" href="#">まだ</a>
+								<a class="dropdown-item" href="#">ない</a>
+							</div>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
 	<main role="main" class="flex-shrink-0">
-		<div class="container-fluid">
-			<div class="jumbotron mt-4 mx-5 shadow-image">
+		<div class="container-fluid px-0">
+			<div class="jumbotron jumbotron-fluid shadow-image px-5">
 				<h1 class="display-4 welcome-text">Welcome to sky_lock.github.io</h1>
 				<p class="lead">まだサイト作成中だよ。ごめんね。</p>
 				<hr class="my-4 half">
-				<p>ちなみにジンギスカンは食べたこと無い</p>
+				<p>カルボは飲み物</p>
 			</div>
 		</div>
 	</main>
-	<footer class="fixed-bottom footer py-3">
-		<div class="container">
-			<span class="text-muted">@Copyright 2019 sky_lock.</span>
+	<footer class="fixed-bottom footer py-5">
+		<div class="container d-flex flex-column">
+			<div class="container d-flex flex-row pl-0">
+				<a href="https://twitter.com/fon_sky_lock" target="_brank" class="fa fa-twitter mr-3"></a>
+				<a href="https://github.com/skylinelock" target="_brank" class="fa fa-github mr-3"></a>
+				<a href="http://www.youtube.com/c/skylock_athletic " target="_brank" class="fa fa-youtube"></a>
+			</div>
+			<span class="text-muted mt-4">@2019 sky_lock.</span>
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
